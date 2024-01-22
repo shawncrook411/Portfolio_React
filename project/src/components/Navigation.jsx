@@ -1,8 +1,10 @@
-import { useState } from 'react'
 
-function Navigation(props) {
-    <div>{props}</div>
-    {useState}
+function Navigation() {
+    return (
+        <div className='nav-bar' >
+            <p>nav-bar</p>
+        </div>
+    )
 }
 
 export default Navigation

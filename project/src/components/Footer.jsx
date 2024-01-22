@@ -1,8 +1,10 @@
-import { useState } from 'react'
 
-function Footer(props) {
-    <div>{props}</div>
-    {useState}
+function Footer() {
+    return (
+        <div className='footer' >
+            <p>footer</p>
+        </div>
+    )
 }
 
 export default Footer

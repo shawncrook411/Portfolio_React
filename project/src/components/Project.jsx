@@ -1,8 +1,10 @@
-import { useState } from 'react'
 
-function Project(props) {
-    <div>{props}</div>
-    {useState}
+function Project() {
+    return (
+        <div className='project' >
+            <p>project</p>
+        </div>
+    )
 }
 
 export default Project
